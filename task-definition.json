@@ -18,6 +18,7 @@
   "requiresCompatibilities": [
     "FARGATE"
   ],
+  "executionRoleArn": "ecsTaskExecutionRole",
   "cpu": "256",
   "memory": "512"
 }
