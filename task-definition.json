@@ -1,5 +1,6 @@
 {
   "family": "nginx",
+  "networkMode": "awsvpc",
   "containerDefinitions": [
     {
       "name": "nginx",
@@ -7,7 +8,7 @@
       "portMappings": [
         {
           "containerPort": 80,
-          "hostPort": 0,
+          "hostPort": 80,
           "protocol": "tcp"
         }
       ],
